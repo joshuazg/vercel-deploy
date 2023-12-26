@@ -1,0 +1,15 @@
+.results-list {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 300px;
+  overflow-y: auto;
+  bottom: 0px;
+  z-index: 9999;
+  position: relative;
+}
+
+.results-list::-webkit-scrollbar {
+  overflow: hidden;
+}

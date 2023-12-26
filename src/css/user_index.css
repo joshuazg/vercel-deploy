@@ -1,0 +1,156 @@
+.caption {
+    position: absolute;
+    top: 115px;
+    left: 299px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 44.8px;
+    white-space: nowrap;
+}
+
+.userBox {
+    position: absolute;
+    top: 115px;
+    left: 299px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 44.8px;
+    white-space: nowrap;
+}
+
+.user-container {
+    max-height: 405px;
+    overflow-y: scroll;
+}
+
+.user-container::-webkit-scrollbar {
+    overflow-y: hidden;
+}
+
+.user-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+/* Add these styles to your CSS file or styled-components */
+
+.penalty-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-container label {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #7f8fa6;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.error-msg {
+    color: red;
+    margin-top: 5px;
+}
+
+.date-time-picker {
+    margin-bottom: 20px;
+}
+
+.time-difference {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 10px;
+    background-color: #ff8f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-group button.cancel {
+    background-color: #ccc;
+}
+
+.success-message {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    /* Green color */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    /* Ensure it's above other elements */
+    animation: fadeOut 3s forwards;
+    /* Animation for fade-out effect */
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }

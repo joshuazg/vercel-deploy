@@ -1,0 +1,16 @@
+/* chart.css */
+
+.chart {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .chart-display {
+    text-align: center;
+    display: flex;
+  }
+  
+  .chart-component {
+    margin-bottom: 20px;
+  }
+  

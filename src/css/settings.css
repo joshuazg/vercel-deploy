@@ -1,0 +1,506 @@
+.settings-manage {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.settings-manage .overlap-wrapper {
+  background-image: url(./img/settings-manage-notification.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 136vh;
+  width: 100%;
+}
+
+.settings-manage .overlap {
+  position: relative;
+  height: 1024px;
+  background-color: #ffe2be;
+}
+
+.settings-manage .overlap-group {
+  position: absolute;
+  width: 251px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.settings-manage .maintenance-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 349px;
+  left: 13px;
+}
+
+.settings-manage .div {
+  position: relative;
+  width: 226px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.settings-manage .text-wrapper {
+  position: absolute;
+  width: 176px;
+  top: 8px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.settings-manage .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 10px;
+}
+
+.settings-manage .schedule-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 291px;
+  left: 13px;
+}
+
+.settings-manage .inventory-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 233px;
+  left: 13px;
+}
+
+.settings-manage .materials-light {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 11px;
+  left: 10px;
+}
+
+.settings-manage .overlap-2 {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 175px;
+  left: 13px;
+}
+
+.settings-manage .check-scooter-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.settings-manage .text-wrapper-2 {
+  position: absolute;
+  width: 176px;
+  top: 10px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.settings-manage .mdi-scooter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 5px;
+}
+
+.settings-manage .dashboard-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 117px;
+  left: 13px;
+}
+
+.settings-manage .dashboardicons {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.settings-manage .line {
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  top: 84px;
+  left: 26px;
+}
+
+.settings-manage .container {
+  display: flex;
+  flex-direction: column;
+  width: 203px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 932px;
+  left: 24px;
+}
+
+.settings-manage .designer-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.settings-manage .gear {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/gear-1.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--b2-regular-font-family);
+  font-weight: var(--b2-regular-font-weight);
+  color: #ff8f00;
+  font-size: var(--b2-regular-font-size);
+  letter-spacing: var(--b2-regular-letter-spacing);
+  line-height: var(--b2-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b2-regular-font-style);
+}
+
+.settings-manage .sign-out {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+
+.settings-manage .sign-out-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.settings-manage .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--b2-regular-font-family);
+  font-weight: var(--b2-regular-font-weight);
+  color: var(--grey-600);
+  font-size: var(--b2-regular-font-size);
+  letter-spacing: var(--b2-regular-letter-spacing);
+  line-height: var(--b2-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b2-regular-font-style);
+}
+
+.settings-manage .logo-no-background {
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 12px;
+  left: 24px;
+  object-fit: cover;
+}
+
+.settings-manage .text-wrapper-5 {
+  position: absolute;
+  top: 27px;
+  left: 96px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.settings-manage .top-bar {
+  display: flex;
+  width: 1189px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 36px;
+  position: absolute;
+  top: 0;
+  left: 251px;
+  background-color: var(--grey-0);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #f1f1f4;
+}
+
+.settings-manage .search-field {
+  display: flex;
+  width: 432px;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 20px;
+  position: relative;
+  background-color: var(--grey-100);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.settings-manage .magnifying-glass {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/magnifyingglass-1.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--b2-regular-font-family);
+  font-weight: var(--b2-regular-font-weight);
+  color: var(--grey-400);
+  font-size: var(--b2-regular-font-size);
+  letter-spacing: var(--b2-regular-letter-spacing);
+  line-height: var(--b2-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b2-regular-font-style);
+}
+
+.settings-manage .container-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.settings-manage .question {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/question-1.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .gear-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/gear-2.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .bell {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/bell-1.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .user {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.settings-manage .profile-picture {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 40px;
+  background-image: url(./img/profile-picture.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.settings-manage .name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.settings-manage .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--b1-bold-font-family);
+  font-weight: var(--b1-bold-font-weight);
+  color: var(--grey-900);
+  font-size: var(--b1-bold-font-size);
+  letter-spacing: var(--b1-bold-letter-spacing);
+  line-height: var(--b1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--b1-bold-font-style);
+}
+
+.settings-manage .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--b3-regular-font-family);
+  font-weight: var(--b3-regular-font-weight);
+  color: var(--grey-500);
+  font-size: var(--b3-regular-font-size);
+  letter-spacing: var(--b3-regular-letter-spacing);
+  line-height: var(--b3-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b3-regular-font-style);
+}
+
+.settings-manage .caret-down {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/caretdown-1.svg);
+  background-size: 100% 100%;
+}
+
+.settings-manage .text-wrapper-8 {
+  position: absolute;
+  top: 115px;
+  left: 299px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  white-space: nowrap;
+}
+
+.settings-manage .notifications-date {
+  position: absolute;
+  width: 701px;
+  top: 200px;
+  left: 299px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.settings-manage .dd-mm-yyyy {
+  position: absolute;
+  top: 243px;
+  left: 269px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.settings-manage .overlap-3 {
+  position: absolute;
+  width: 80px;
+  height: 31px;
+  top: 238px;
+  left: 994px;
+}
+
+.settings-manage .text-wrapper-9 {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: var(--secondary);
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.settings-manage .rectangle {
+  position: absolute;
+  width: 80px;
+  height: 30px;
+  top: 1px;
+  left: 0;
+  border: 1px solid;
+  border-color: #9a9a9a;
+}
+
+.settings-manage .overlap-4 {
+  position: absolute;
+  width: 80px;
+  height: 31px;
+  top: 238px;
+  left: 1137px;
+}
+
+.settings-manage .trash {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 244px;
+  left: 1280px;
+  object-fit: cover;
+}
+
+.settings-manage .div-wrapper {
+  position: absolute;
+  width: 144px;
+  height: 33px;
+  top: 128px;
+  left: 1218px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.settings-manage .text-wrapper-10 {
+  position: absolute;
+  height: 18px;
+  top: 7px;
+  left: 13px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}

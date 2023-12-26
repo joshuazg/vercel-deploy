@@ -1,0 +1,514 @@
+.set-geofencing {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.set-geofencing .overlap-wrapper {
+  background-image: url(./img/set-geofencing.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 1440px;
+  height: 1024px;
+}
+
+.set-geofencing .overlap {
+  position: relative;
+  height: 1024px;
+  background-color: #ffe2be;
+}
+
+.set-geofencing .overlap-group {
+  position: absolute;
+  width: 251px;
+  height: 1024px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.set-geofencing .overlap-group-wrapper {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 407px;
+  left: 13px;
+}
+
+.set-geofencing .div {
+  position: relative;
+  width: 226px;
+  height: 40px;
+  background-color: #fce7cc;
+  border-radius: 4px;
+}
+
+.set-geofencing .text-wrapper {
+  position: absolute;
+  width: 176px;
+  top: 8px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ff8f00;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.set-geofencing .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.set-geofencing .user-management {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 349px;
+  left: 13px;
+}
+
+.set-geofencing .overlap-2 {
+  position: relative;
+  width: 226px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.set-geofencing .text-wrapper-2 {
+  position: absolute;
+  width: 176px;
+  top: 8px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.set-geofencing .img-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 10px;
+}
+
+.set-geofencing .schedule-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 291px;
+  left: 13px;
+}
+
+.set-geofencing .inventory-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 233px;
+  left: 13px;
+}
+
+.set-geofencing .materials-light {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 11px;
+  left: 10px;
+}
+
+.set-geofencing .overlap-3 {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 175px;
+  left: 13px;
+}
+
+.set-geofencing .check-scooter-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 0;
+  left: 0;
+}
+
+.set-geofencing .text-wrapper-3 {
+  position: absolute;
+  width: 176px;
+  top: 10px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.set-geofencing .mdi-scooter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 5px;
+}
+
+.set-geofencing .dashboard-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 117px;
+  left: 13px;
+}
+
+.set-geofencing .line {
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  top: 84px;
+  left: 26px;
+}
+
+.set-geofencing .container {
+  display: flex;
+  flex-direction: column;
+  width: 203px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  top: 932px;
+  left: 24px;
+}
+
+.set-geofencing .designer-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.set-geofencing .gear {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: url(./img/gear.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--b2-regular-font-family);
+  font-weight: var(--b2-regular-font-weight);
+  color: var(--grey-600);
+  font-size: var(--b2-regular-font-size);
+  letter-spacing: var(--b2-regular-letter-spacing);
+  line-height: var(--b2-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b2-regular-font-style);
+}
+
+.set-geofencing .sign-out {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transform: rotate(180deg);
+}
+
+.set-geofencing .sign-out-2 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 0;
+  left: 0;
+  transform: rotate(-180deg);
+}
+
+.set-geofencing .logo-no-background {
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 12px;
+  left: 24px;
+  object-fit: cover;
+}
+
+.set-geofencing .text-wrapper-5 {
+  position: absolute;
+  top: 27px;
+  left: 96px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.set-geofencing .top-bar {
+  display: flex;
+  width: 1189px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 36px;
+  position: absolute;
+  top: 0;
+  left: 251px;
+  background-color: var(--grey-0);
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #f1f1f4;
+}
+
+.set-geofencing .search-field {
+  display: flex;
+  width: 432px;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 20px;
+  position: relative;
+  background-color: var(--grey-100);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.set-geofencing .magnifying-glass {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/magnifyingglass.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--b2-regular-font-family);
+  font-weight: var(--b2-regular-font-weight);
+  color: var(--grey-400);
+  font-size: var(--b2-regular-font-size);
+  letter-spacing: var(--b2-regular-letter-spacing);
+  line-height: var(--b2-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b2-regular-font-style);
+}
+
+.set-geofencing .container-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.set-geofencing .question {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/question.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .gear-2 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/gear-1.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .bell {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/bell.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .user {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.set-geofencing .profile-picture {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 40px;
+  background-image: url(./img/profile-picture.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.set-geofencing .name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.set-geofencing .text-wrapper-6 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--b1-bold-font-family);
+  font-weight: var(--b1-bold-font-weight);
+  color: var(--grey-900);
+  font-size: var(--b1-bold-font-size);
+  letter-spacing: var(--b1-bold-letter-spacing);
+  line-height: var(--b1-bold-line-height);
+  white-space: nowrap;
+  font-style: var(--b1-bold-font-style);
+}
+
+.set-geofencing .text-wrapper-7 {
+  position: relative;
+  width: fit-content;
+  font-family: var(--b3-regular-font-family);
+  font-weight: var(--b3-regular-font-weight);
+  color: var(--grey-500);
+  font-size: var(--b3-regular-font-size);
+  letter-spacing: var(--b3-regular-letter-spacing);
+  line-height: var(--b3-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--b3-regular-font-style);
+}
+
+.set-geofencing .caret-down {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-image: url(./img/caretdown.svg);
+  background-size: 100% 100%;
+}
+
+.set-geofencing .text-wrapper-8 {
+  position: absolute;
+  top: 115px;
+  left: 299px;
+  font-family: "Inter", Helvetica;
+  font-weight: 800;
+  color: #000000;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 44.8px;
+  white-space: nowrap;
+}
+
+.set-geofencing .flexcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  position: absolute;
+  width: 904px;
+  height: 108px;
+  top: 203px;
+  left: 299px;
+}
+
+.set-geofencing .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.set-geofencing .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 33.6px;
+}
+
+.set-geofencing .image {
+  position: absolute;
+  width: 643px;
+  height: 494px;
+  top: 357px;
+  left: 287px;
+  object-fit: cover;
+}
+
+.set-geofencing .overlap-4 {
+  position: absolute;
+  width: 160px;
+  height: 51px;
+  top: 916px;
+  left: 1202px;
+}
+
+.set-geofencing .rectangle {
+  background-color: #ffcc8a;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  top: 1px;
+  left: 0;
+  border-radius: 9px;
+}
+
+.set-geofencing .text-wrapper-9 {
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.set-geofencing .overlap-5 {
+  position: absolute;
+  width: 160px;
+  height: 51px;
+  top: 916px;
+  left: 1016px;
+}
+
+.set-geofencing .rectangle-2 {
+  background-color: #ffffff;
+  border: 0.5px solid;
+  border-color: #000000;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  top: 1px;
+  left: 0;
+  border-radius: 9px;
+}

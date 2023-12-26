@@ -1,0 +1,26 @@
+.input-wrapper {
+  width: 100%;
+  max-width: 400px;
+  height: 2.5rem;
+  border: none;
+  box-shadow: 1px 1px 1px #ddd;
+  align-items: center;
+  margin-right: 180px;
+}
+
+.search-input {
+  background-color: transparent;
+  height: 100%;
+  border: none;
+  font-size: 1.25rem;
+  width: 90%;
+  margin-left: 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#search-icon {
+  color: royalblue;
+}

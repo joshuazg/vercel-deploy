@@ -1,0 +1,487 @@
+.header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.head {
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 136vh;
+  width: 100%;
+}
+
+.head-wrapper {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #ffe2be;
+}
+
+.header .side-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+  max-width: 251px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.header .top-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  height: 5vh;
+  padding: 20px 40px;
+  background-color: #ffffff;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #ffffff;
+}
+
+.header .top-bar-container {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: 100px;
+
+}
+
+.question,
+.bell,
+.gear {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.question:hover,
+.bell:hover,
+.gear:hover {
+  border-radius: 50%;
+  padding: 6px;
+  background-color: rgba(187, 163, 163, 0.365);
+  color: #ff8f00;
+}
+
+.gearNot:hover {
+  color: #ff8f00;
+}
+
+.notification-container {
+  position: relative;
+  width: 100%;
+}
+
+.notification-box {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  z-index: 1;
+  width: 300px;
+  max-height: 20vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.notification-box::-webkit-scrollbar {
+  overflow: hidden;
+}
+
+.pic-container {
+  width: 44px;
+}
+
+.header .user-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.header .profile-picture {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header .profile {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.dropdown .signout {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background-size: 100% 100%;
+}
+
+.header .user {
+  position: absolute;
+  width: 71px;
+  height: 73px;
+  top: 16px;
+  left: 108px;
+  background-size: 100% 100%;
+}
+
+.header .set-geofencing {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 407px;
+  left: 13px;
+}
+
+.header .side-bar-overlap {
+  position: relative;
+  width: 226px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.header .side-bar-wrapper-1 {
+  position: absolute;
+  width: 176px;
+  top: 10px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.header .side-bar-wrapper-1:hover {
+  color: #ff8f00;
+  background-color: rgba(243, 222, 173, 0.689);
+  padding: 5px;
+}
+
+.header .side-bar-wrapper-2 {
+  position: absolute;
+  width: 176px;
+  top: 8px;
+  left: 38px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 22.4px;
+  white-space: nowrap;
+}
+
+.header .side-bar-wrapper-2:hover {
+  color: #ff8f00;
+  background-color: rgba(243, 222, 173, 0.689);
+  padding: 5px;
+}
+
+.header .img {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 10px;
+}
+
+.header .user-management {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 349px;
+  left: 13px;
+}
+
+.header .date-range-duotone {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 10px;
+}
+
+.header .subtract {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 1px;
+  left: 1px;
+}
+
+.header .schedule-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 291px;
+  left: 13px;
+}
+
+.header .inventory-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 233px;
+  left: 13px;
+}
+
+.header .materials-light {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 11px;
+  left: 10px;
+}
+
+.header .check-scooter-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 178px;
+  left: 13px;
+  z-index: 0;
+}
+
+.header .mdi-scooter {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 8px;
+  left: 5px;
+}
+
+.header .dashboard-all {
+  position: absolute;
+  width: 228px;
+  height: 40px;
+  top: 117px;
+  left: 13px;
+}
+
+.header .line {
+  width: 200px;
+  height: 1px;
+  position: absolute;
+  top: 100px;
+
+}
+
+.header .designer-team {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.header .logo-wrapper-1 {
+  position: absolute;
+  top: 27px;
+  left: 96px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.header .logo-no-background {
+  position: absolute;
+  width: 50px;
+  height: 56px;
+  top: 12px;
+  left: 24px;
+  object-fit: cover;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff8f00;
+}
+
+.dropdown {
+  display: inline-flex;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: contents;
+  background-color: rgba(243, 222, 173, 0.689);
+}
+
+.logout {
+  display: inline-block;
+  position: relative;
+  padding: 0px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  background-color: #ffffff;
+  white-space: nowrap;
+}
+
+.logout:hover {
+  background-color: rgba(243, 222, 173, 0.689);
+  color: #ff8f00;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black with 50% transparency */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure the overlay is above other content */
+}
+
+.notified-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 20%;
+}
+
+.notified-form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.notified-form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.notified-form-container select,
+.notified-form-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.notified-form-container .submit-notif {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notified-form-container .cancel-notif {
+  background-color: #af4c4c;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 118px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #555;
+}
+
+.button-container {
+  margin-top: 15px;
+}
+
+.success-message {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #4CAF50;
+  /* Green color */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  /* Ensure it's above other elements */
+  animation: fadeOut 3s forwards;
+  /* Animation for fade-out effect */
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.sent-notify {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.sent-notify:hover {
+  color: #ff8f00;
+}

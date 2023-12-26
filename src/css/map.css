@@ -1,0 +1,57 @@
+/* Add these styles to your CSS file or styled-components */
+
+.button-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    padding: 10px;
+    background-color: #4caf50; /* Green color for Save button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+  }
+  
+  .button-container button.reset {
+    background-color: #f44336; /* Red color for Reset button */
+  }
+  
+  .button-container button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+  
+  .button-container button.reset:hover {
+    background-color: #d32f2f; /* Darker red color on hover for Reset button */
+  }
+  
+  .success-message {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    /* Green color */
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    /* Ensure it's above other elements */
+    animation: fadeOut 3s forwards;
+    /* Animation for fade-out effect */
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }

@@ -1,0 +1,107 @@
+.commentPage {
+    background-color: transparent;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.commentPage .overlap-wrapper {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 136vh;
+
+}
+
+.commentPage .overlap {
+    position: relative;
+    background-color: #ffe2be;
+}
+
+.commentPage .comment-title {
+    position: absolute;
+    top: 115px;
+    left: 299px;
+    font-family: "Inter", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: 44.8px;
+    white-space: nowrap;
+
+}
+
+.commentPage .comment {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-top: 20px;
+    position: absolute;
+    right: 320px;
+    top: 160px;
+    width: 60%;
+}
+
+.commentPage .comment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff31;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 0; /* Adjust as needed */
+}
+
+.user-info {
+    display: flex;
+}
+
+.username {
+    font-weight: bold;
+}
+
+.userid,
+.created-at {
+    color: #a6a3a3;
+}
+
+.created-at {
+    font-size: 14px;
+}
+
+.comment-box {
+    margin-top: 10px;
+}
+
+.rating {
+    font-size: 24px;
+}
+
+.commentPage .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.commentPage .pagination button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 25%;
+    color: #000;
+    cursor: pointer;
+    padding: 8px 16px;
+    margin: 0 5px;
+    font-size: 16px;
+    
+}
+
+.commentPage .pagination button:hover {
+    background-color: #f0f0f0;
+}
+
+.commentPage .pagination button.active {
+    background-color: #ff8f00;
+    color: #fff;
+}
